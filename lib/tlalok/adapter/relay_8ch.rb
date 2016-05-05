@@ -1,11 +1,11 @@
 require "tlalok/adapter/relay_8ch/version"
 require 'thor'
 
-begin
+#begin
   require 'wiringpi'
-rescue LoadError
-  require 'tlalok/adapter/relay_8ch/wiringpi'
-end
+#rescue LoadError
+#  require 'tlalok/adapter/relay_8ch/wiringpi'
+#end
 
 module Tlalok
   module Adapter

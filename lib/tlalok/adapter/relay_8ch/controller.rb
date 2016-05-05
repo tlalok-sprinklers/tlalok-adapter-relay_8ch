@@ -41,7 +41,7 @@ module Tlalok
         end
 
         def send_array(array)
-          @stations.each do |state, station|
+          @stations.each_with_index do |state, station|
             @io.digital_write(station, state)
           end
         end
