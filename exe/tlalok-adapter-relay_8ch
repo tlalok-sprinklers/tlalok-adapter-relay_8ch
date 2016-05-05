@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "tlalok/adapter/relay_8ch"
+
+Tlalok::Adapter::Relay8ch::CLI.start(ARGV)
